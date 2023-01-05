@@ -1,26 +1,26 @@
 {
-  "name": "simplefolio",
+  "name": "pavanbaloju.github.io",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "build": "parcel build src/index.html",
+    "predeploy": "rm -rf dist && parcel build src/index.html --no-source-maps --public-url ./",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavanbaloju/simplefolio"
+    "url": "git+https://github.com/pavanbaloju/pavanbaloju.github.io"
   },
   "keywords": [],
   "author": "Pavan Baloju",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pavanbaloju/simplefolio/issues"
+    "url": "https://github.com/pavanbaloju/pavanbaloju.github.io/issues"
   },
-  "homepage": "https://pavanbaloju.github.io/simplefolio",
+  "homepage": "https://pavanbaloju.github.io/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
