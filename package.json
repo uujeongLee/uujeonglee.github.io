@@ -1,5 +1,5 @@
 {
-  "name": "pavanbaloju.github.io",
+  "name": "uujeonglee.github.io",
   "version": "1.0.1",
   "private": "true",
   "description": "A clean, beautiful and responsive portfolio template for Developers!",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pavanbaloju/pavanbaloju.github.io"
+    "url": "git+https://github.com/uujeonglee/uujeonglee.github.io"
   },
   "keywords": [],
   "author": "Pavan Baloju",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pavanbaloju/pavanbaloju.github.io/issues"
+    "url": "https://github.com/uujeonglee/uujeonglee.github.io/issues"
   },
-  "homepage": "https://pavanbaloju.github.io/",
+  "homepage": "https://uujeonglee.github.io/",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.8.2",
     "parcel": "^2.8.2",
@@ -32,6 +32,7 @@
     "gh-pages": "^4.0.0",
     "jquery": "^3.6.3",
     "popper.js": "^1.16.1",
-    "vanilla-tilt": "^1.8.0"
+    "vanilla-tilt": "^1.8.0",
+    "yarn": "^1.22.22"
   }
 }
